@@ -25,7 +25,7 @@
         <div id="navigation">
             <div class="dark-overlay">
                 <div class="inner">
-                    <nav class="navbar navbar-expand-sm bg-transparent fixed-top mb-3 nav">
+                    <nav class="navbar navbar-expand-lg bg-transparent fixed-top mb-3 nav">
                         <div class="container">
                             <a class="navbar-brand" href="#"><img src=".\images\mm.svg" alt="Mohammed Mishkath" style="width:25px"></a>
                             <button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#navbarcollapse"><span class="navbar-toggler-icon"></span></button>
@@ -57,7 +57,6 @@
                         I'm Mohammed Mishkath,<br>
                         Software Developer<br>
                     </h1>
-                    <small>Java, Html, CSS, Javascript</small>  
                 </div>
             </div>
         </div>
@@ -67,23 +66,24 @@
 <!--About section-->
 <section id="about">
     <div class="container">
-        <h3 class="heading mt-4 mb-4">About Me</h3> <hr/>
-        <p class="bold-text">Professional Software developer with 1+ years of experience developing code for a web platform, Enthusiastic about learning new technologies and applying them in the real world. Proficiency in java, Html, CSS, JavaScript. I have experience working as part of a team and individually. Seeking a job that gives the opportunity to grow and improve my skill set, knowledge to apply it in the organization and grow along with the objective of the organization.</p>
+        <h3 class="heading mt-4 mb-4">About Me</h3> 
+        <div class=" "></div>
+        <p class="bold-text"></p>
      </div>  
      
      <div class="container">
         <div class="row mt-4 mb-4">
-          <div class="col">
-            <h3 class="heading mt-4 mb-4">Interests </h3> <hr/>
-            <div class="row">
-                <div class="card-deck" Style="width:60%; margin-left: 0%;">
-                    <div class="card"  data-aos="fade-down-left" data-aos-duration="3000" id="interestCard1">
+          <div class="col-md-6">
+            <h3 class="heading mt-4 mb-4" data-aos="fade-right">Interests </h3> <hr/>
+            <div class="row" Style="width:100%;">
+                <div class="card-deck" >
+                    <div class="card mr-4"  data-aos="fade-right" data-aos-duration="3000" id="interestCard1">
                         <img class="card-img-top img-fluid " src="./images/computerHardware.jpg" alt="Card image cap">
                         <div class="card-body interestCardBody">
                         <h4 class="card-title">Computer Hardware</h4>
                         </div>
                     </div>
-                    <div class="card"  data-aos="fade-down-right" data-aos-duration="3000" id="interestCard2" style="width: 100px;">
+                    <div class="card ml-4"  data-aos="fade-right" data-aos-duration="2000" id="interestCard2">
                         <img class="card-img-top img-fluid " src="./images/gaming.jpg" alt="Card image cap">
                         <div class="card-body interestCardBody">
                         <h4 class="card-title">Gaming</h4>
@@ -91,15 +91,15 @@
                     </div>
                 </div>    
             </div>
-            <div class="row">
-                <div class="card-deck" Style="width:60%; margin-left: 0%;">
-                    <div class="card"  data-aos="fade-up-left" data-aos-duration="3000" id="interestCard1">
+            <div class="row" Style="width:100%;">
+                <div class="card-deck" >
+                    <div class="card mr-4"  data-aos="fade-right" data-aos-duration="3000" id="interestCard3">
                         <img class="card-img-top img-fluid " src="./images/exploring.jpg" alt="Card image cap">
                         <div class="card-body interestCardBody">
                         <h4 class="card-title">Exploring</h4>
                         </div>
                     </div>
-                    <div class="card"  data-aos="fade-up-right" data-aos-duration="3000" id="interestCard2">
+                    <div class="card ml-4"  data-aos="fade-right" data-aos-duration="2000" id="interestCard4">
                         <img class="card-img-top img-fluid " src="./images/reading.jpg" alt="Card image cap">
                         <div class="card-body interestCardBody">
                         <h4 class="card-title">Reading</h4>
@@ -108,8 +108,8 @@
                 </div>    
             </div>
           </div>
-          <div class="col">
-            <h3 class="heading mt-4 mb-4">Skills</h3> <hr/>
+          <div class="col-md-6">
+            <h3 class="heading mt-4 mb-4" data-aos="fade-left" >Skills</h3> <hr/>
                 <div class="container-fluid">
                     <div class="row", id="row1">
                         <div class="col-lg-3 col-sm-6">
@@ -161,12 +161,13 @@
         <!--Work section-->
         <section id="workExperience">
             <div class="container">
-                <h3 class="pb-3 pt-2 heading">My Work Experience</h3> <hr/>
+                <h3 class="pb-3 pt-2 heading" data-aos="fade-left">My Work Experience</h3> <hr/>
+                <div class="container" data-aos="fade-up">
                 <div class="row align-items-center how-it-works d-flex">
                     <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
                       <div class="circle font-weight-bold">1</div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-8">
                       <h5>July 2019 - present &nbsp Qness Software</h5>
                         <p>Acting as an associate software developer for developing a web platform.</p>          
                         <em><i>Key Responsibilities:</i></em>  
@@ -181,16 +182,17 @@
                         </ul>         
                     </div>
                   </div>
-                  <div class="row timeline">
-                      <div class="col-2">
+                  <div class="row timeline" >
+                      <div class="col-2" id="d1">
                           <div class="corner top-right"></div>
                       </div>
-                      <div class="col-8">
+                      <div class="col-8" id="d2">
                           <hr/>
                       </div>
-                      <div class="col-2">
+                      <div class="col-2" id="d3">
                           <div class="corner left-bottom"></div>
                       </div>
+                  </div>
                   </div>
             </div>
         </section>

@@ -63,7 +63,7 @@ body{
 
 .circle{
   padding: 13px 20px;
-  border-radius: 50%;
+  border-radius: 70%;
   background-color: grey;
   color: #ffffff;
   max-height: 50px;
@@ -151,38 +151,28 @@ body{
 
 #interestCard1 .img-fluid{
   width: auto;
-  height: 6em;
+  
+  height: 8em;
 }
 
-#interestCard1 .interestCardBody{
-  padding:0;
-}
 
 #interestCard2 .img-fluid{
   width: auto;
-  height: 6em;
+  min-width: 100px;
+  height: 8em;
 }
 
-#interestCard2 .interestCardBody{
-  padding:0;
-}
 #interestCard3 .img-fluid{
   width: auto;
-  height: 6em;
+  min-width: 100px;
+  height: 8em;
 }
 
-#interestCard3 .interestCardBody{
-  padding:0;
-}
 #interestCard4 .img-fluid{
   width: auto;
-  height: 10em;
+  min-width: 100px;
+  height: 8em;
 }
-
-#interestCard4.interestCardBody{
-  padding:0;
-}
-
 
 .center{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -200,6 +190,7 @@ body{
 
 .heading{  
   font-family: 'Abril Fatface', cursive;
+  text-align: center;
   /* margin: 5% 38% 0% 38%; */
 }
 
@@ -270,4 +261,8 @@ body{
 
 .card{
   border: none;
+}
+
+.card-deck {
+  width: 100%;
 }
