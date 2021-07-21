@@ -7,7 +7,7 @@ body{
     background-size: cover;
     background-position-y: center;
     background-attachment: fixed;
-    min-height: 700px;
+   
 }
 
 .nav.scrolled {
@@ -31,9 +31,9 @@ body{
     position: relative;
     left: 0;
     top: 0;
-    height: 100%;
+    height: calc(100vh+50px);
     width: 100%;
-    min-height: 700px;
+   
 }
 
 #introduction{
@@ -42,10 +42,6 @@ body{
     font-weight: bold;
     margin-top: 3%;
     margin-bottom: 3%;
-}
-
-.intro{  
-  font-family: 'Abril Fatface', cursive;
 }
 
 .bold-text{
@@ -144,8 +140,10 @@ body{
 } 
 
 .intro{
+  font-family: 'Abril Fatface', cursive;
   color: white;
-  margin: 22% 15%;
+  text-align: center;
+  margin: 20% 0%;
 }
 
 
@@ -265,4 +263,8 @@ body{
 
 .card-deck {
   width: 100%;
+}
+
+.introText{
+  font-size: 3vw;  
 }
