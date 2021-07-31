@@ -1,19 +1,27 @@
-body{
+body {
   font-family: 'Muli';
+  overflow-x: hidden;
+  position: relative;
 }
 
 #navigation {
     background: url(.././images/background.jpg);
     background-size: cover;
     background-position-y: center;
-    background-attachment: fixed;
-   
+    background-attachment: fixed;   
 }
 
 .nav.scrolled {
-  background-color: rgb(71, 68, 68) !important;
+  background-color: rgb(14, 11, 11) !important;
+  border-bottom: 5px solid #45a29e;
   transition: 0.7s;
+  /*  #950714 */
 }
+
+.nav a:hover{
+  color: #45a29e;
+}
+
 .navbar-toggler{
   border-color: black;
 }
@@ -60,7 +68,8 @@ body{
 .circle{
   padding: 13px 20px;
   border-radius: 70%;
-  background-color: grey;
+  background-color: rgb(0, 0, 0);
+  border: 0.15em solid #45a29e;
   color: #ffffff;
   max-height: 50px;
   z-index: 2;
@@ -73,7 +82,7 @@ body{
 .how-it-works.row .col-2::after{
   content: "";
   position: absolute;
-  border-left: 3px solid grey;
+  border-left: 3px solid rgb(0, 0, 0);
   z-index: 1;
 }
 
@@ -99,7 +108,7 @@ body{
   height: 40px;
 }
 .timeline hr {
-  border-top: 3px solid grey;
+  border-top: 3px solid rgb(0, 0, 0);
   margin: 0;
   top: 17px;
   position: relative;
@@ -109,7 +118,7 @@ body{
   overflow: hidden;
 }
 .timeline .corner {
-  border: 3px solid grey;
+  border: 3px solid black;
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -136,7 +145,7 @@ body{
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: rgb(252, 244, 249);
+  border-color: #45a29e;
 } 
 
 .intro{
@@ -149,26 +158,26 @@ body{
 
 #interestCard1 .img-fluid{
   width: auto;
-  
+  max-width: 300px;
   height: 8em;
 }
 
 
 #interestCard2 .img-fluid{
   width: auto;
-  min-width: 100px;
+  max-width: 300px;
   height: 8em;
 }
 
 #interestCard3 .img-fluid{
   width: auto;
-  min-width: 100px;
+  max-width: 300px;
   height: 8em;
 }
 
 #interestCard4 .img-fluid{
   width: auto;
-  min-width: 100px;
+  max-width: 300px;
   height: 8em;
 }
 
@@ -186,10 +195,12 @@ body{
   padding-left: 10%;
 }
 
-.heading{  
+.heading { text-align: center; }
+
+.heading span{  
   font-family: 'Abril Fatface', cursive;
-  text-align: center;
-  /* margin: 5% 38% 0% 38%; */
+  border-bottom: 0.1em solid #45a29e;  
+  /* #950714*/
 }
 
 .loader-wrapper{
@@ -268,3 +279,34 @@ body{
 .introText{
   font-size: 3vw;  
 }
+
+#d1,#d3 {
+  color: black;
+}
+
+.skills {
+  border-radius: 1.25em;
+  
+  border: 0.2em solid #45a29e;
+  height: 7em;
+  width: 6em;
+  
+}
+
+.skills p {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 25%;
+}
+
+#html {
+  background: url(.././images/html.png); 
+  background-position-y: center;
+  background-position-x: center;
+  background-attachment: fixed;  
+  background-size: 5em 6em;
+}
+
+#html:hover p {
+  display: none;
+ }
