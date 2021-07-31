@@ -40,8 +40,7 @@ body {
     left: 0;
     top: 0;
     height: calc(100vh+50px);
-    width: 100%;
-   
+    width: 100%;   
 }
 
 #introduction{
@@ -69,9 +68,10 @@ body {
   padding: 13px 20px;
   border-radius: 70%;
   background-color: rgb(0, 0, 0);
-  border: 0.15em solid #45a29e;
+  border: 0.18em solid #45a29e;
   color: #ffffff;
   max-height: 50px;
+  text-align: center;
   z-index: 2;
 }
 
@@ -284,29 +284,73 @@ body {
   color: black;
 }
 
-.skills {
-  border-radius: 1.25em;
-  
-  border: 0.2em solid #45a29e;
+.skills { 
   height: 7em;
-  width: 6em;
-  
+  width: 6em;  
 }
 
 .skills p {
   color: #ffffff;
   text-align: center;
-  margin-top: 25%;
+  margin-top: 40%;
 }
 
 #html {
-  background: url(.././images/html.png); 
-  background-position-y: center;
-  background-position-x: center;
-  background-attachment: fixed;  
-  background-size: 5em 6em;
-}
-
-#html:hover p {
-  display: none;
+  background-image: url(.././images/html.png);  
+  background-position: center;
+  background-size: 5em 6.5em;
  }
+
+ #java {
+  background-image: url(.././images/java.png);  
+  background-position: center;
+  background-size: 5em 6.5em;
+ }
+ 
+ #css {
+  background-image: url(.././images/CSS3.jpg);  
+  background-position: center;
+  background-size: 5em 6.5em;
+ }
+
+ #js {
+  background-image: url(.././images/js.jpg);  
+  background-position: center;
+  background-size: 5em 6.5em;
+ }
+
+ #python {
+  background-image: url(.././images/python.png);  
+  background-position: center;
+  background-size: 5em 6.5em;
+ }
+
+ #servlet {
+  background-image: url(.././images/jsp-servlet.png);  
+  background-position: center;
+  background-size: 5em 6.5em;
+ }
+
+ 
+ #git {
+  background-image: url(.././images/git.png);  
+  background-position: center;
+  background-size: 5em 6.5em;
+ }
+
+ 
+ #mySQL {
+  background-image: url(.././images/mysql.png);  
+  background-position: center;
+  background-size: 5em 6.5em;
+ }
+
+.overl {
+  border-radius: 1.25em;  
+  border: 0.2em solid #45a29e; 
+  background-color: rgb(0, 0, 0, 0.8);
+  overflow: hidden;
+  position: relative; 
+  height: 100%;
+  width: 100%;   
+}
