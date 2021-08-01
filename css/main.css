@@ -14,7 +14,7 @@ body {
 .nav.scrolled {
   background-color: rgb(14, 11, 11) !important;
   border-bottom: 5px solid #45a29e;
-  transition: 0.7s;
+  transition: 0.5s;
   /*  #950714 */
 }
 
@@ -353,4 +353,57 @@ body {
   position: relative; 
   height: 100%;
   width: 100%;   
+}
+
+#stl {
+  width: 100px;
+  position: fixed;
+  bottom: 0px;
+  left: -1.5em;
+  right: 95%;
+  z-index: 10;
+}
+
+#stl ul {
+  list-style-type: none;
+}
+#stl ul li { 
+  padding: 25%;
+} 
+
+
+@media (max-width: 576px) {
+  #stl {
+  width: 50%;
+  height: auto;
+  position:relative;
+  display: inline-block;
+  z-index: 10;
+  border: #45a29e;
+  }
+  #stl ul li {   
+    display: inline-block;
+    margin: 5%;
+    padding: 0%;
+  } 
+}
+
+@media (max-width: 768px) {
+  #stl {
+  width: 50%;
+  height: auto;
+  position:relative;
+  display: inline-block;
+  z-index: 10;
+  border: #45a29e;
+  }
+  #stl ul li {   
+    display: inline-block;
+    margin: 5%;
+    padding: 0%;
+  } 
+}
+
+.color {
+  color: #45a29e;
 }
